@@ -1,0 +1,206 @@
+
+
+ h1 {
+    color: orange;
+    margin: 25px;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Lilita One', cursive;
+    text-shadow: 15px 10px 20px black ;
+    /* background-color: coral; */
+    /* background-image : url(https://elviajerofeliz.com/wp-content/uploads/2015/09/playas-de-Miami-4.jpg); */
+    background-size: cover;
+}
+
+body{
+    background-image: url(https://www.costacruceros.com/content/dam/costa/costa-magazine/article-images/what-to-see-in-miami/miami-biscayne-bay_1.jpg.image.1296.974.high.jpg);
+    background-repeat:round;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100vh;
+
+    
+}
+
+img.miami{
+    border-radius: 20px;
+    border-style: outset;
+    box-shadow: 0px 0px 50px #fff;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+img.hoteles{
+    margin: 30px;
+    /* padding: 20px; */
+    border-radius: 50px;
+    border-style: ridge;
+    
+}
+
+nav {
+    justify-content: space-between; /* Espacio entre los elementos */
+    width: 100%; /* Para ocupar todo el ancho de pantalla */
+    margin: 20px;
+}
+
+nav ul {
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+    padding: 0; /* Para eliminar el padding por defecto de la lista */
+}
+
+nav li {
+    margin: 0 15px; /* Espacio horizontal entre elementos */
+}
+
+nav a {
+    color: #ffffff; /* Color de texto para resaltar */
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+    border-style: ridge;
+    padding: 15px;
+    border-radius: 25px;
+    
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.9s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    /* display: block; */
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+ol{
+    /* background-image: linear-gradient(#fce702d7 #ff9500e8 ); */
+    display: flex;
+    width: 80%;
+    /* height: fit-content; */
+    border-style: double;
+    padding: 50px;
+    list-style-type: disc;
+    font-family: 'Lilita One', cursive;
+    border-radius: 20px;
+    color: #eee;
+    background: #F7971E;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to bottom, #FFD200, #F7971E);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffd00078, #f7371e78); 
+
+
+
+}  
+
+.ambitos li{
+    flex-direction: column;
+    /* border-style: dotted; */
+    margin: 75px;
+    text-anchor: middle;
+    list-style-type: disc;
+    
+
+}
+
+ol li ul li{
+    border-style:groove;
+    font-weight:bolder;
+    font-family: 'Lilita One', cursive;
+    background-color: #ff522fc0;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+.alojamiento{
+    margin: 30px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+div.tabla{
+    display: flex;
+}
+
+table{
+    width: 120%;
+    text-align: center;
+    border-color: #fd6500;
+
+}
+
+iframe{
+    margin: 30px;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+tbody{
+    background-color: #ffffff82;
+}
+
+thead{
+    background-color:#ffffff82 ;
+}
+
+a.hotel{
+    font-family: 'Lilita One', cursive;
+    background-color: #fd650084;
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    color: #000000;
+    border: #000000;
+    border-style: ridge;
+}
+
+div.historia{
+    background-color: #ffffff8e;
+    width: 90%;
+    margin: 30px;
+    padding: 10px;
+}
+
+div.contacto{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Lilita One', cursive;
+    margin: 50px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

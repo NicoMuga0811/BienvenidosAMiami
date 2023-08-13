@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Contactanos</h1>
+    </header>    
+        
+    
+    <nav>
+        <ul>
+            <li class="menu">
+                <a class="btn-grad" href="/index.html" class="botonesNav">INICIO</a>
+            </li>
+            <li>
+                <a class="btn-grad" href="/QueHacerEnMiami.html" class="botonesNav">Que hacer en Miami?</a>
+            </li>
+            <li>
+                <a class="btn-grad" href="/alojamientos.html" class="botonesNav">Donde dormir en Miami?</a>
+            </li>
+            <li>
+                <a class="btn-grad" href="/HistoriaDeMiami.html" class="botonesNav">Acerca de</a>
+            </li>
+            <li>
+                <a class="btn-grad" href="/forms.html" class="botonesNav">Contactanos</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="contacto">
+        <form action="mailto:nicocarpmuga@gmail.com" method="post"></form>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" value="" required>
+        <br>
+        <label for="email">Direccion de correo:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="Mensaje">Mensaje</label>
+        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Escribe aquí tu mensaje:" required></textarea>
+        <br>
+        <input type="submit" name="Enviar">
+    </div>
+</body>
+</html>
